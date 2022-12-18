@@ -5,8 +5,8 @@ import json
 from sensor.config import mongo_client
 
 DATA_FILE_PATH="/config/workspace/aps_failure_training_set1.csv"
-DATABASE_NAME="aps"
-COLLECTION_NAME="sensor"
+DATABASE_NAME="Scania_APS"
+COLLECTION_NAME="Sensor_Fault"
 
 if __name__=="__main__":
     df = pd.read_csv(DATA_FILE_PATH)
